@@ -1,7 +1,9 @@
-relative_require '../request'
-relative_require '../html_parser'
+require_relative '../request'
+require_relative '../html_parser'
 
 class SearchEngine
+  attr_reader :term, :results
+
   def self.factory()
   end
 
