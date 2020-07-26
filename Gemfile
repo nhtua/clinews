@@ -11,3 +11,5 @@ gem "rspec", "~> 3.9"
 gem "simplecov", "~> 0.18.5"
 
 gem "http", "~> 4.4"
+
+gem "nokogiri", "~> 1.10"
